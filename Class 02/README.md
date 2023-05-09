@@ -21,8 +21,8 @@ Put the following things in the order that they happen: componentDidMount, rende
 What does componentDidMount do?
 + after a componet has been mounted it invokes it for the purpose of adding subscriptions. 
 
-## Videos
-React State Vs Props
+## React State Vs Props
+
 <https://www.youtube.com/watch?v=IYvD9oBCuJI>
 
 What types of things can you pass in the props?
