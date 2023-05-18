@@ -1,54 +1,94 @@
-# Class 06 reading 
+# Introduction to React and Components
 
-## React Docs - Thinking in React
+## Why It's Important
 
-How I explained REST to my brother
+This is important because its explains the web commands for example: GET, POST, PUT, PATCH.
 
-Who is Roy Fielding?
-+ 
 
-Why don’t the techniques that we use in this class work well when we need to be able to talk to all of the machines in the world?
-+ 
+## Reading Q&A
 
-What is the HTTP protocol that Fielding and his friends created?
-+ 
+### **How I explained REST to my brother**
 
-What does a GET do?
-+ 
+<https://gist.github.com/brookr/5977550>
 
-What does a POST do?
-+ 
+**Who is Roy Fielding?**
 
-What does PUT do?
-+ 
+- Roy Fielding wrote a web servers that sent documents across the internet. He is also known for the usage of servers to our browser.
 
-What does PATCH do?
-+ 
 
-# API Keys
-**Request a personal API key from the following APIs. You should receive these in your email within a few hours, often within minutes. Please request these keys prior to lecture to allow adequate time because you will need them in order to complete your lab assignment. Note: do not post your API keys in the Canvas discussion or on GitHub. Save them in a secure place.**
 
-Geocoding API
+**Why don’t the techniques that we use in this class work well when we need to be able to talk to all of the machines in the world?**
 
-Did you get your API key?
-+ 
+- We write things in a call-reponse format but some machines dont have acces to the format there are many coding languages.  
 
-Weather Bit API
 
-Did you get your API key?
-+ 
 
-Yelp API Docs
+**What is the HTTP protocol that Fielding and his friends created?**
 
-Did you get your API key?
-+ 
+- they made it to where you can apply diffrent lang for instance nouns, verbs ect.the browser gets the HTTP on the URL you typed that comes back the web page. It goes through a few other protocals till the browser has all nessesary elements.
 
-The Movie DB API Docs
 
-Did you get your API key?
-ons.
-+ h
 
-# Notes:
+**What does a GET do?**
 
-Things i want more
+- Get is a universal command in coding to request data. It Gets it through the URL
+
+
+
+**What does a POST do?**
+
+- Post adds information from system to system. 
+
+
+
+**What does PUT do?**
+
+- Put replaces componets from system to system.
+
+
+
+**What does PATCH do?**
+
+- Patch updates something in a system.Patch can also update.
+
+
+
+### **Geocoding API**
+
+<https://locationiq.com/>
+
+**Did you get your API key?**
+
+- Yes
+
+
+
+### **Weather Bit API**
+
+<https://www.weatherbit.io/>
+
+**Did you get your API key?**
+
+- No
+
+
+
+### **Yelp API Docs**
+
+<https://docs.developer.yelp.com/reference/v3_business_search>
+
+**Did you get your API key?**
+
+- no i got errors beloow for api key
+
+
+
+### **The Movie DB API Docs**
+
+<https://developers.themoviedb.org/3/getting-started/introduction>
+
+**Did you get your API key?**
+
+- Yes
+
+## Things I Want to Know More About
