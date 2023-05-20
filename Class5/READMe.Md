@@ -2,7 +2,7 @@
 
 ## Why It's Important
 
-This information is important because it explains the best way to determine if something is state as well as how to identify state.
+This information is important because it explains the best way to determine if something is a state.
 
 
 ## Reading Q&A
