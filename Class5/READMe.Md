@@ -13,38 +13,36 @@ This information is important because it explains the best way to determine if s
 
 **What is the single responsibility principle and how does it apply to components?**
 
--  **Single Responsibility Pricinple:** a computer programming principle that states that "A module should be responsible to one and only one actor."
+-  **Single Responsibility Pricinple:** a computer programming principle that mentions "A module should be responsible to one and only one actor."
 
-It applies to components because components should only do one thing. If it does multiple things, it should be broken down into smaller additional components instead o one big one. 
+It applies to components because they have one fuction. If it does multiple things, it should be broken down into smaller additional components to minamize the stress of coding alot into one. 
 
----
+
 
 **What does it mean to build a ‘static’ version of your application?**
 
-- A static verison of your applications means that it lacks interactivity and doesn't do anything.
+- A static verison of your applications means that it lacks interactivity.
 
----
+
 
 **Once you have a static application, what do you need to add?**
 
-- After you have a static applications you should add elements that make the application interactive.
+- You can add elements that make the application interactive.
 
 **What are the three questions you can ask to determine if something is state?**
 
-1. Does it remain unchanged over time? If so, it isn't state.
-2. Is it passed in from a parent via props? If so, it isn't state.
-3. Can you compute it based on existing state or props in your component? If so, it definitely isn't state!
+1. Does it change over time? 
+2. Are props passed in from a parent? 
+3. does the code have errors thourgh missing componets not passed from props.
 
 **How can you identify where state needs to live?**
 
-1. You can put the state directly into their common parent. 
+1. You can put the state directly into their related parent. 
 
 
-2. You can also put the state into some component about their common parent.
+2. You can tag state into some component mentioning their related parent.
 
-3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
 
------------------
 
 ### **Higher-Order Functions**
 
@@ -52,33 +50,26 @@ It applies to components because components should only do one thing. If it does
 
 **What is a “higher-order function”?**
 
-- functions that operate on other functions either by taking them as argument sor by returning them
+- functions that operate on other functions by taking them as argument or by returning 
 
----
+
 
 **Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?**
 
 Code from the Reading:
 
-```
+
 function greaterThan(n) {
   return m => m > n;
 }
 let greaterThan10 = greaterThan(10);
 console.log(greaterThan10(11));
 // → true
-```
 
-- the function is comparing the variables and anything that is greater than n will be true and less than n will be false
-
-- line two of the function is returning m as it being greater than n 
-
----
+- the function is comparing the variables and anything that is greater than m will be true and less than m will be false line two of the function is returning m as it being greater than n 
 
 **Explain how either map or reduce operates, with regards to higher-order functions.**
 
-- reduce computes a single value from an array. it builds a value by repeatedly taking a single element from the array and combining it with the current value when it comes to higher order operations
-
------------------
+- it operates on collections (such as arrays or lists) and applies a given function to each element, returning a new collection with the updated elements
 
 ## Things I Want to Know More About
